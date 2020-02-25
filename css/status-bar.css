@@ -1,0 +1,35 @@
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.status-bar__column > i,
+span {
+    margin-left: 3px;
+}
+
+.clock {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.status-bar__column {
+    display: flex;
+    align-items: center;
+}
+
+.fa-signal {
+    font-size: 14px;
+}
+
+.lte {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fa-battery-three-quarters {
+    font-size: 20px;
+}
